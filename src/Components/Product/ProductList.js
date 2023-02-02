@@ -20,7 +20,7 @@ const ProductList = () => {
 
   useEffect(() => {
     ;(async () => {
-      const { data } = await $fakeJson.get('https://dummyjson.com/products')
+      const { data } = await $fakeJson.get('/products')
       setProductsData(data)
     })()
   }, [])
