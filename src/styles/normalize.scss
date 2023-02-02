@@ -1,0 +1,195 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+a {
+  color: $linkColor;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+img {
+  border: none;
+}
+
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+em,
+strong,
+sub,
+sup,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+form,
+label,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  font-size: 100%;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  background: transparent;
+  outline: none;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+nav ul {
+  list-style: none;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+ins {
+  text-decoration: none;
+}
+p,
+pre,
+blockquote,
+ul,
+ol,
+dl {
+  margin: 1em 0;
+}
+blockquote {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+ol,
+ul,
+dd {
+  margin-left: 40px;
+}
+pre,
+code,
+kbd,
+samp {
+  font-family: monospace, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $rB, Helvetica, sans-serif;
+  margin: 0;
+  color: #000;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: $h1Size;
+  line-height: normal;
+}
+h2 {
+  font-size: $h1Size - 2;
+  line-height: normal;
+}
+h3 {
+  font-size: $h1Size - 4;
+  line-height: normal;
+}
+h4 {
+  font-size: $h1Size - 6;
+  line-height: normal;
+}
+h5 {
+  font-size: $h1Size - 8;
+  line-height: normal;
+}
+h6 {
+  font-size: $h1Size - 10;
+  line-height: normal;
+}
+hr {
+  color: $colorDesign;
+  border: none;
+  background-color: $colorDesign;
+  height: 1px;
+}
+
+body {
+  font: 400 $textSize $siteFont;
+  color: $textColor;
+}
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
